@@ -27,5 +27,5 @@ def main():
     mini = Minimisation()
     res = mini.minimise([px, py], learning_rate=lrate,
                  nsteps=nsteps)
-    print(res)
+    print(f'{res[0]} {res[1]}')
     
